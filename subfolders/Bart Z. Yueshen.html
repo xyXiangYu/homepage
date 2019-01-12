@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en"><head>
+    <meta charset="utf-8">
+    <title>Bart Z. Yueshen</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="Bart%20Z.%20Yueshen_files/css.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen, projection" href="Bart%20Z.%20Yueshen_files/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="Bart%20Z.%20Yueshen_files/print.css" type="text/css">
+	<link href="Bart%20Z.%20Yueshen_files/default.css" rel="stylesheet">
+    <link rel="alternate" type="application/atom+xml" title="Bart Z. Yueshen" href="http://feeds.feedburner.com/bzy">
+    <link rel="shortcut icon" href="http://www.yueshen.me/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="http://www.yueshen.me/res/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.yueshen.me/res/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.yueshen.me/res/apple-touch-icon-114x114-precomposed.png">
+    
+    <meta property="fb:admins" content="728642302">
+    <meta property="fb:app_id" content="38027689216">
+    
+      <meta name="description" content="Bart Zhou Yueshen">
+    
+    
+    
+    
+    <meta property="og:url" content="http://www.yueshen.me/">
+    <meta property="og:site_name" content="www.yueshen.me">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB">
+    
+    
+    <script type="text/javascript" async="" src="Bart%20Z.%20Yueshen_files/ga.js"></script><script>
+  //html { zoom:50%; }
+  if (window.addEventListener) {
+    var sidebarAdjustTimer;
+    function updateOrientation(orientationChangeEvent) {
+      if (sidebarAdjustTimer) clearInterval(sidebarAdjustTimer);
+      //console.log('window.orientation -> '+window.orientation);
+      if (window.orientation === -90 || window.orientation === 90) {
+        // landscape
+        var sidebar = document.getElementById('sidebar');
+        if (!sidebar.src || sidebar.src === '') {
+          sidebar.src = '/archive/sidebar.html';
+        }
+        sidebarAdjustTimer = setInterval(function() {
+          var height = Math.round(document.height * 1.6);
+          if (sidebar.height != height) {
+            sidebar.height = height;
+            sidebar.style.height = height + 'px';
+          }
+        },500);
+      } else {
+        // portrait
+      }
+    }
+    window.addEventListener('orientationchange', updateOrientation);
+    document.addEventListener('DOMSubtreeModified', function(ev) {
+      if (document.getElementById('sidebar')) {
+        document.removeEventListener('DOMSubtreeModified', arguments.callee);
+        updateOrientation();
+      }
+    });
+  }
+</script>
+    
+    
+	<!-- math interpreter -->
+	<script src="Bart%20Z.%20Yueshen_files/MathJax.js" id=""></script>
+  <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+  <body><div id="MathJax_Message" style="display: none;"></div>
+    <iframe id="sidebar"></iframe>
+    <header>
+      <h1 class="logo" onclick="document.location.href='/';"><a href="http://www.yueshen.me/"><img src="Bart%20Z.%20Yueshen_files/ayueshenswebsite.png" alt="姿态 -- a site by bzy" height="50"></a></h1>
+      <ul class="navigation">
+        <li><a href="http://www.yueshen.me/pages/about/" title="...about me, about this site">about</a></li>
+        <li><a href="http://www.yueshen.me/pages/motto/" title="...my mottos">motto</a></li>
+        <li><a href="http://www.yueshen.me/pages/research/" title="...my research">research</a></li>
+        <li><a href="http://www.yueshen.me/archive/" title="...archived articles">archive</a></li>
+      </ul>
+    </header>
+    <!--div class="wrapper content"-->
+      <!-- banner -->
+<div class="index left-panel">
+  <img src="Bart%20Z.%20Yueshen_files/banner_v.png" width="150">
+</div>
+<!-- recent posts -->
+<div class="posts">
+    <div class="content full-bleed" id="recent-posts" style="position: relative;">
+    
+    
+	  <a href="http://www.yueshen.me/2018/1031.html" class="post-excerpt" style="position: absolute; width: 250px; left: 150px; top: 0px;">
+        <div class="padded-content">
+        
+	      <div class="title">1031 - 秦南琴</div>
+          <info datetime="">
+            Jan 02, 2018
+          </info>
+          
+          <span class="body">秦者情也，南琴者难尽也。</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1030.html" class="post-excerpt photo" style="position: absolute; width: 250px; left: 150px; top: 119px;">
+        <div class="padded-content">
+        
+	      <!-- <div class="title">1030 &#45; 转蓬</div> -->
+          <div class="number">1030</div>
+          <div class="image" style="background-image:url('/res/img/1030-tumbleweed.gif')"></div>
+		  
+		  <div class="title">转蓬</div>
+		  
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1029.html" class="post-excerpt" style="position: absolute; width: 250px; left: 150px; top: 369px;">
+        <div class="padded-content">
+        
+	      <div class="title">1029 - 吾乡</div>
+          <info datetime="">
+            Sep 01, 2017
+          </info>
+          
+          <span class="body">万里归来年愈少，微笑，笑时犹带岭梅香。</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1028.html" class="post-excerpt" style="position: absolute; width: 250px; left: 150px; top: 488px;">
+        <div class="padded-content">
+        
+	      <div class="title">1028 - Conference Small Talks</div>
+          <info datetime="">
+            Aug 30, 2017
+          </info>
+          
+          <span class="body">Ah, small talks...</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1027.html" class="post-excerpt" style="position: absolute; width: 250px; left: 400px; top: 0px;">
+        <div class="padded-content">
+        
+	      <div class="title">1027 - 《悲伤的问题》</div>
+          <info datetime="">
+            May 23, 2017
+          </info>
+          
+          <span class="body">独我大声独白 / 对峙这世界的微言细语</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1026.html" class="post-excerpt photo" style="position: absolute; width: 250px; left: 400px; top: 119px;">
+        <div class="padded-content">
+        
+	      <!-- <div class="title">1026 &#45; Singrench Lah!</div> -->
+          <div class="number">1026</div>
+          <div class="image" style="background-image:url('/res/thumbs/1026-keepcalmandlah.png')"></div>
+		  
+		  <div class="title">Singrench Lah!</div>
+		  
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2017/1025.html" class="post-excerpt" style="position: absolute; width: 250px; left: 400px; top: 369px;">
+        <div class="padded-content">
+        
+	      <div class="title">1025 - 《在——尽头》</div>
+          <info datetime="">
+            Feb 02, 2017
+          </info>
+          
+          <span class="body">2009年秋天的旧作。追逐了这些年，“可是花依旧开在彼岸”。“在窗口看到的风景 / 又不能带去天国”</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+    
+	  <a href="http://www.yueshen.me/2016/1024.html" class="post-excerpt" style="position: absolute; width: 250px; left: 400px; top: 527px;">
+        <div class="padded-content">
+        
+	      <div class="title">1024 - Swap Escape and Capslock in Sierra</div>
+          <info datetime="">
+            Oct 02, 2016
+          </info>
+          
+          <span class="body">Sierra is a nice update integrating Siri on
+ Mac OS. But the latest system no longer supports key swapping 
+previously achieved with Seil. Here is a quick hack.</span>
+          
+        <!-- post.photo_url -->
+        </div>
+      </a>
+	
+	
+
+      <div class="breaker" style="height: 763px;"></div>
+      <div class="end">
+        <a href="http://www.yueshen.me/archive/">. . . more . . .</a>
+      </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+(function(f){
+  var onload = function(f) {
+    if (window.addEventListener) {
+      window.addEventListener('DOMContentLoaded', f, false);
+    } else {
+      window.attachEvent('onload', f);
+    }
+  };
+  onload(function(){
+    f();
+    if (window.addEventListener) {
+      window.addEventListener('resize', f, false);
+    } else {
+      window.attachEvent('resize', f);
+    }
+  });
+})(function(){
+  var winw = window.innerWidth, w; //, width_thresholds = [680, 780];
+  w = window.__post_grid_width;
+
+  if ( (w !== undefined) &&
+       ( (w === 680 && winw < 680) ||
+         (w === 780 && winw >= 680 && winw < 780) ||
+         (w === 10000 && winw >= 780)
+       )
+     )
+  {
+    // console.log('noop w:', w+ ', winw:', winw);
+    return;
+  } else {
+    window.__post_grid_width = w =
+      winw > 780 ? 10000 :
+      winw > 680 ? 780 :
+                   680;
+    // console.log('op w:', w);
+  }
+
+  var posts = document.getElementById('recent-posts');
+  var per_column = 4;
+  var child_nodes = posts.childNodes, k, node, h,
+      col_width, col0_y, col1_y, col1_x,
+      origin = {x:0, y:0}, node_count = 0, is_col0, row0_max_y;
+
+  posts.style.position = (window.__post_grid_width <= 680) ? null : 'relative';
+
+  for (k in child_nodes) {
+    node = child_nodes[k];
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.className === 'breaker') {
+        if (window.__post_grid_width <= 680) {
+          node.style.height = null;
+        } else {
+          node.style.height = Math.max(col0_y, col1_y) + 'px';
+        }
+        break;
+      }
+
+      if (node_count < per_column) {
+        if (col0_y === undefined) {
+          origin.x = node.offsetLeft;
+          origin.y = node.offsetTop;
+          col_width = node.clientWidth;
+          col0_y = origin.y;
+          row0_max_y = col0_y;
+        }
+      } else {
+        if (col1_y === undefined) {
+          col1_y = origin.y;
+          col1_x = origin.x + node.clientWidth;
+        }
+      }
+
+      if (window.__post_grid_width <= 680) {
+        // console.log('Clear');
+        node.style.position = null;
+        node.style.width = null;
+        node.style.left = null;
+        node.style.top = null;
+      } else {
+        is_col0 = (node_count < per_column);
+        node.style.position = 'absolute';
+        node.style.width = col_width + 'px';
+        if (is_col0) {
+          node.style.left = origin.x + 'px';
+          node.style.top = col0_y + 'px';
+          col0_y += node.clientHeight;
+        } else {
+          node.style.left = col1_x + 'px';
+          node.style.top = col1_y + 'px';
+          col1_y += node.clientHeight;
+        }
+      }
+
+      ++node_count;
+    }
+  }
+
+});
+</script>
+
+    <!--/div-->
+    
+    
+    
+    
+    
+    
+    <footer>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="Bart%20Z.%20Yueshen_files/cc-cc.png" class="cc">
+        <img src="Bart%20Z.%20Yueshen_files/cc-by.png" class="cc"></a>
+	    <font size="1">
+        This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+		<br>
+	    Bart shamelessly borrowed the design from <a href="https://github.com/rsms">Rasmus</a> (all credits to him)
+        </font>
+      </p>
+    </footer>
+    
+    
+    <script>
+  // curry pre < code to be able to get prettified
+  // If the first line is
+  //   #!-langname\n
+  // Then that line is removed from the code and "langname" is given to prettify.
+  // If "langname" is "none", that prettify is not applied at all.
+  var n,i,L,cn,lang,v = document.getElementsByTagName('pre');
+  var m,lang_re = /^#\!-([a-zA-Z0-9_-]+)\n/;
+  for (i=0,L=v.length;i<L;++i) {
+    n = v.item(i);
+    if ((cn = n.firstChild) && cn.nodeName == 'CODE') {
+      lang = null;
+      if (cn.firstChild.nodeType === Node.TEXT_NODE) {
+        m = lang_re.exec(cn.firstChild.nodeValue);
+        if (m) {
+          lang = m[1].toLowerCase();
+          cn.firstChild.nodeValue = cn.firstChild.nodeValue.substr(m[0].length);
+          if (lang === 'none') {
+            continue;
+          }
+        }
+      }
+      n.setAttribute('class', 'prettyprint'+(lang ? ' lang-' + lang : ''));
+    }
+  }
+</script>
+<script async="" src="Bart%20Z.%20Yueshen_files/prettify.js"></script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9078556-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  
+
+</body></html>
